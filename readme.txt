@@ -4,9 +4,11 @@
   git add .                              添加到暂存区
   git commit -m "content"                把暂存区的所有内容提交到当前分支[默认第一个分支：master]
 
+  git checkout -- xxxx[Path+file]        让这个文件回到最近一次git commit或git add时的状态
+
   git diff                               工作区和暂存区比较---修改之后还没有暂存起来的变化内容
   git diff --cached                      暂存区和仓库（版本库）的比较---查看已暂存的将要添加到下次提交里的内容
-  git diff HEAD -- readme.txt            工作区和版本库比较
+  git diff HEAD -- xxxx[Path+file]       工作区和版本库比较
 
   git log --pretty=oneline
   git log --oneline
