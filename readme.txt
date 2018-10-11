@@ -34,6 +34,7 @@
   git checkout -b <branch_name>
 
   git merge <branch_name>                合并branch_name分支到当前分支
+  git branch -d <branch_name>            删除branch_name分支
 
 
   git diff                               工作区和暂存区比较---修改之后还没有暂存起来的变化内容
