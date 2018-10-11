@@ -12,5 +12,6 @@
   git reset --hard HEAD^
   git reset --hard HEAD^^
   git reset --hard HEAD~100
+  git reset HEAD xxxx[file_name]
   git reflog
 
