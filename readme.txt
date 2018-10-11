@@ -37,6 +37,13 @@
   fast-forward模式和--no-ff模式
   git branch -d <branch_name>            删除branch_name分支
 
+  git stash                              暂存当前工作区
+  git stash list
+  git stash apply
+  git stash drop
+  git stash pop
+
+
 
   git diff                               工作区和暂存区比较---修改之后还没有暂存起来的变化内容
   git diff --cached                      暂存区和仓库（版本库）的比较---查看已暂存的将要添加到下次提交里的内容
