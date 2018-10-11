@@ -33,6 +33,8 @@
   相当于：
   git checkout -b <branch_name>
 
+  git merge <branch_name>                合并branch_name分支到当前分支
+
 
   git diff                               工作区和暂存区比较---修改之后还没有暂存起来的变化内容
   git diff --cached                      暂存区和仓库（版本库）的比较---查看已暂存的将要添加到下次提交里的内容
