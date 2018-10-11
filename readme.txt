@@ -33,6 +33,13 @@
   相当于：
   git checkout -b <branch_name>
 
+  在本地创建和远程分支对应的分支：
+  git checkout -b branch-name origin/branch-name
+  设置本地分支和远程分支的链接关系:
+  git branch --set-upstream-to <branch-name> origin/<branch-name>
+
+  git rebase                             把本地未push的分叉提交历史整理成直线,使得我们在查看历史提交的变化时更容易，因为分叉的提交需要三方对比
+
   git merge <branch_name>                合并branch_name分支到当前分支
   fast-forward模式和--no-ff模式
   git branch -d <branch_name>            删除branch_name分支
