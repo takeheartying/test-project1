@@ -3,6 +3,9 @@
   git init                               新建本地仓库
   git add .                              添加到暂存区
   git commit -m "content"                把暂存区的所有内容提交到当前分支[默认第一个分支：master]
+  git rm -- xxxx[Path+file]
+  git remote add myorigin git@github.com:takeheartying/test-project1.git 本地仓库关联远程仓库【远程库默认名字origin】
+
 
   git checkout -- xxxx[Path+file]        让这个文件回到最近一次git commit或git add时的状态
 
