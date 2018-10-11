@@ -61,5 +61,5 @@
   git reset --hard HEAD^^
   git reset --hard HEAD~100
   git reset HEAD xxxx[file_name]         暂存区（stage）当前内容回滚
-  git reflog
+  git reflog                             查看回滚
 
