@@ -4,14 +4,17 @@
   git add .                              添加到暂存区
   git commit -m "content"                把暂存区的所有内容提交到当前分支[默认第一个分支：master]
 
+  git diff                               工作区和暂存区比较---修改之后还没有暂存起来的变化内容
+  git diff --cached                      暂存区跟仓库（版本库）的比较---查看已暂存的将要添加到下次提交里的内容
+
   git log --pretty=oneline
   git log --oneline
   git log
 
-  git reset --hard xxxx[commit_id]
+  git reset --hard xxxx[commit_id]       仓库（版本库）回滚
   git reset --hard HEAD^
   git reset --hard HEAD^^
   git reset --hard HEAD~100
-  git reset HEAD xxxx[file_name]
+  git reset HEAD xxxx[file_name]         暂存区（stage）内容回滚
   git reflog
 
