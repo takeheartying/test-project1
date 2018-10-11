@@ -28,6 +28,12 @@
 
   git checkout -- xxxx[Path+file]        让这个文件回到最近一次git commit或git add时的状态
 
+  git branch <branch_name>               新建branch_name分支
+  git checkout <branch_name>             转到branch_name分支
+  相当于：
+  git checkout -b <branch_name>
+
+
   git diff                               工作区和暂存区比较---修改之后还没有暂存起来的变化内容
   git diff --cached                      暂存区和仓库（版本库）的比较---查看已暂存的将要添加到下次提交里的内容
   git diff HEAD -- xxxx[Path+file]       工作区和版本库比较
