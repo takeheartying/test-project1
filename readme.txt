@@ -31,7 +31,7 @@
   git branch <branch_name>               新建branch_name分支
   git checkout <branch_name>             转到branch_name分支
   相当于：
-  git checkout -b dev
+  git checkout -b <branch_name>
 
 
   git diff                               工作区和暂存区比较---修改之后还没有暂存起来的变化内容
