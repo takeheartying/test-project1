@@ -3,3 +3,10 @@
   git init
   git add .
   git commit -m "content"
+  git log --pretty=oneline
+  git reset --hard xxxx[commit_id]
+  git reset --hard HEAD^
+  git reset --hard HEAD^^
+  git reset --hard HEAD~100
+  git reflog
+
