@@ -35,6 +35,7 @@
   git log --pretty=oneline --abbrev-commit
   git log --pretty=oneline
   git log --oneline
+  git log -1                             提示最后一次commit信息
   git log
 
   git reset --hard xxxx[commit_id]       本地仓库（版本库）回滚
