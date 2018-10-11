@@ -36,6 +36,7 @@
   git merge <branch_name>                合并branch_name分支到当前分支
   fast-forward模式和--no-ff模式
   git branch -d <branch_name>            删除branch_name分支
+  git branch -D <branch_name>            强行删除branch_name分支
 
   git stash                              暂存当前工作区
   git stash list
