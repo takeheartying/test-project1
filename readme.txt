@@ -34,6 +34,7 @@
   git checkout -b <branch_name>
 
   git merge <branch_name>                合并branch_name分支到当前分支
+  fast-forward模式和--no-ff模式
   git branch -d <branch_name>            删除branch_name分支
 
 
@@ -44,6 +45,7 @@
   git log --pretty=oneline --abbrev-commit
   git log --pretty=oneline
   git log --oneline
+  git log --graph                        看到分支合并图
   git log -1                             提示最后一次commit信息
   git log
 
