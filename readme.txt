@@ -13,6 +13,12 @@
   先创建远程库后从远程库克隆:
   git clone xxxx
 
+
+  git push origin <tagname>              可以推送一个本地标签
+  git push origin --tags                 推送所有本地标签
+  git tag  -d <tagname>                  删除本地标签
+  git push origin :refs/tags/<tagname>   删除远程标签
+
   git branch                             获取分支
   git tag <name> [commit_id]             打标签----   -a指定标签名，-m指定说明文字
   git tag                                查看标签
