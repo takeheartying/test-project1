@@ -4,8 +4,9 @@
   git add .                              添加到暂存区
   git commit -m "content"                把暂存区的所有内容提交到当前分支[默认第一个分支：master]
   git rm -- xxxx[Path+file]
-  git remote add myorigin git@github.com:takeheartying/test-project1.git 本地仓库关联远程仓库【远程库默认名字origin】
-
+  git remote add origin git@github.com:takeheartying/test-project1.git 本地仓库关联远程仓库【远程库默认名字origin】+ 创建主分支
+  git pull origin master                 把本地仓库的变化连接到远程仓库主分支
+  git push -u origin master              把本地仓库的文件推送到远程仓库
 
   git checkout -- xxxx[Path+file]        让这个文件回到最近一次git commit或git add时的状态
 
