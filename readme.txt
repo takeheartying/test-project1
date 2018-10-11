@@ -4,9 +4,21 @@
   git add .                              添加到暂存区
   git commit -m "content"                把暂存区的所有内容提交到当前分支[默认第一个分支：master]
   git rm -- xxxx[Path+file]
-  git remote add origin git@github.com:takeheartying/test-project1.git 本地仓库关联远程仓库【远程库默认名字origin】+ 创建主分支
-  git pull origin master                 把本地仓库的变化连接到远程仓库主分支
-  git push -u origin master              把本地仓库的文件推送到远程仓库
+
+  先有本地库，后有远程库的时候，如何关联远程库:
+  git remote add origin git@github.com:takeheartying/test-project1.git     本地仓库关联远程仓库【远程库默认名字origin】+ 创建主分支
+  git pull origin master --allow-unrelated-histories                       把本地仓库的变化连接到远程仓库主分支
+  git push -u origin master                                                把本地仓库的文件推送到远程仓库
+
+  先创建远程库后从远程库克隆:
+  git clone xxxx
+
+  git branch                             获取分支
+  git tag <name> [commit_id]             打标签----   -a指定标签名，-m指定说明文字
+  git tag                                查看标签
+  git show <tagname>                     查看标签信息
+  git tag -d <tagname>                   删除本地标签
+
 
   git checkout -- xxxx[Path+file]        让这个文件回到最近一次git commit或git add时的状态
 
@@ -14,6 +26,7 @@
   git diff --cached                      暂存区和仓库（版本库）的比较---查看已暂存的将要添加到下次提交里的内容
   git diff HEAD -- xxxx[Path+file]       工作区和版本库比较
 
+  git log --pretty=oneline --abbrev-commit
   git log --pretty=oneline
   git log --oneline
   git log
